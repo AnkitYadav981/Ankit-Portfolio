@@ -129,7 +129,7 @@ export const SkillsInfo = [
       id: 0,
       title: "Student Task Manager",
       description:
-        "Student Task Manager is a web-based task management system designed for students to efficiently organize academic and personal activities. The application allows users to create tasks, categorize them as Urgent, Pending, or Completed, and automatically shifts tasks between sections based on due dates and status updates. It supports real-time task updates in UI, secure authentication using JWT, password hashing with bcrypt, clean UI built using React + JSX, Tailwind CSS, DaisyUI, and Lucide React Icons, and a Node.js / MongoDB backend. The system is scalable for future enhancements like teacher portal integration, admin control panel, settings management, and institutional use in schools and universities.",
+        "Student Task Manager is a web-based application that helps students organize academic and personal tasks. It supports task creation and categorization (Urgent, Pending, Completed), real-time UI updates, secure JWT authentication with bcrypt, a clean React-based UI using Tailwind CSS, DaisyUI, and Lucide icons, and a scalable Node.js–MongoDB backend for future institutional use.",
       image: taskManagerIMG,
       tags: ["HTML", "CSS", "JavaScript", "React JS", "API","Express.js","JWT","Hashing"],
       github: "https://github.com/AnkitYadav981/Student-Task-Manager",
@@ -139,7 +139,7 @@ export const SkillsInfo = [
       id: 1,
       title: "Real time Chat App",
       description:
-        "Developed a scalable, secure real-time chat application enabling users to send and receive instant messages with seamless communication. Integrated real-time messaging using WebSockets, ensuring low-latency interactions and reliable message delivery. Implemented features like one-to-one chat, group chat, message status (delivered/read), user authentication, and persistent chat history with a robust backend database. Focused on clean UI/UX for smooth user experience and efficient performance across devices.",
+        "Developed a scalable and secure real-time chat application with low-latency messaging using WebSockets. Implemented one-to-one and group chats, message status (delivered/read), user authentication, and persistent chat history, with a clean UI/UX optimized for performance across devices.",
       image: chatApp,
       tags: ["HTML", "CSS", "JavaScript", "React JS", "API","Socket.io","Express.js","JWT","Hashing"],
       github: "https://github.com/AnkitYadav981/ChatApp",
