@@ -30,6 +30,7 @@ import hbseLogo from './assets/education_logo/HBSE logo.webp';
 
 // Project Section Logo's
 import taskManagerIMG from "./assets/work_logo/Student-task-manager.png"
+import chatApp from "./assets/work_logo/chatty2.png"
 
 
 
@@ -100,7 +101,7 @@ export const SkillsInfo = [
       school: "Starex University, Gurugram",
       date: "Sept 2022 - present",
       grade: "",
-      desc: "I have completed my Master's degree (MCA) in Computer Applications from GLA University, Mathura. During my time at GLA, I gained a strong foundation in programming, software development, and computer science principles. I have studied courses such as Data Structures, Algorithms, Object-Oriented Programming, Database Management Systems, Web Development, and Software Engineering. I actively participated in various workshops and technical events, which enhanced my skills and knowledge. My experience at GLA University has been instrumental in shaping my technical abilities and professional growth.",
+      desc: "I hold a B.Tech in Computer Science Engineering from Strarex University, Gurugram, with a strong focus on full-stack web development. I have hands-on experience with core CS concepts, modern web technologies, and building end-to-end applications through projects and workshops.",
       degree: "Bachelor of Technology in computer science and engineering - B.Tech CSE",
     },
     {
@@ -139,7 +140,7 @@ export const SkillsInfo = [
       title: "Real time Chat App",
       description:
         "Developed a scalable, secure real-time chat application enabling users to send and receive instant messages with seamless communication. Integrated real-time messaging using WebSockets, ensuring low-latency interactions and reliable message delivery. Implemented features like one-to-one chat, group chat, message status (delivered/read), user authentication, and persistent chat history with a robust backend database. Focused on clean UI/UX for smooth user experience and efficient performance across devices.",
-      image: taskManagerIMG,
+      image: chatApp,
       tags: ["HTML", "CSS", "JavaScript", "React JS", "API","Socket.io","Express.js","JWT","Hashing"],
       github: "https://github.com/AnkitYadav981/ChatApp",
       webapp: "https://chatapp-d55s.onrender.com",
