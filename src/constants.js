@@ -1,159 +1,191 @@
 // Skills Section Logo's
-import htmlLogo from './assets/tech_logo/html.png';
-import cssLogo from './assets/tech_logo/css.png';
-import javascriptLogo from './assets/tech_logo/javascript.png';
-import reactjsLogo from './assets/tech_logo/reactjs.png';
-import tailwindcssLogo from './assets/tech_logo/tailwindcss.png';
-import nodejsLogo from './assets/tech_logo/nodejs.png';
-import expressjsLogo from './assets/tech_logo/express.png';
-import mongodbLogo from './assets/tech_logo/mongodb.png';
-import mcLogo from './assets/tech_logo/mc.png'
-import cLogo from './assets/tech_logo/c.png';
-import javaLogo from './assets/tech_logo/java.png';
-import pythonLogo from './assets/tech_logo/python.png';
-import gitLogo from './assets/tech_logo/git.png';
-import githubLogo from './assets/tech_logo/github.png';
-import vscodeLogo from './assets/tech_logo/vscode.png';
-import postmanLogo from './assets/tech_logo/postman.png';
-import netlifyLogo from './assets/tech_logo/netlify.png';
-import vercelLogo from './assets/tech_logo/vercel.png';
-import postgreLogo from './assets/tech_logo/postgre.png';
-
+import htmlLogo from "./assets/tech_logo/html.png";
+import cssLogo from "./assets/tech_logo/css.png";
+import javascriptLogo from "./assets/tech_logo/javascript.png";
+import reactjsLogo from "./assets/tech_logo/reactjs.png";
+import tailwindcssLogo from "./assets/tech_logo/tailwindcss.png";
+import nodejsLogo from "./assets/tech_logo/nodejs.png";
+import expressjsLogo from "./assets/tech_logo/express.png";
+import mongodbLogo from "./assets/tech_logo/mongodb.png";
+import mcLogo from "./assets/tech_logo/mc.png";
+import cLogo from "./assets/tech_logo/c.png";
+import javaLogo from "./assets/tech_logo/java.png";
+import pythonLogo from "./assets/tech_logo/python.png";
+import gitLogo from "./assets/tech_logo/git.png";
+import githubLogo from "./assets/tech_logo/github.png";
+import vscodeLogo from "./assets/tech_logo/vscode.png";
+import postmanLogo from "./assets/tech_logo/postman.png";
+import netlifyLogo from "./assets/tech_logo/netlify.png";
+import vercelLogo from "./assets/tech_logo/vercel.png";
+import postgreLogo from "./assets/tech_logo/postgre.png";
 
 // Experience Section Logo's
-import webverseLogo from './assets/company_logo/ibm.webp';
-
+import webverseLogo from "./assets/company_logo/ibm.webp";
+import uzenceLogo from "./assets/company_logo/Uzence.png";
 
 // Education Section Logo's
-import starexLogo from './assets/education_logo/starex Logo.webp';
-import hbseLogo from './assets/education_logo/HBSE logo.webp';
+import starexLogo from "./assets/education_logo/starex Logo.webp";
+import hbseLogo from "./assets/education_logo/HBSE logo.webp";
 
 // Project Section Logo's
-import taskManagerIMG from "./assets/work_logo/Student-task-manager.png"
-import chatApp from "./assets/work_logo/chatty2.png"
-
-
+import taskManagerIMG from "./assets/work_logo/Student-task-manager.png";
+import chatApp from "./assets/work_logo/chatty2.png";
+import ems from "./assets/work_logo/EMS.png"
 
 export const SkillsInfo = [
   {
-    title: 'Frontend',
+    title: "Frontend",
     skills: [
-      { name: 'HTML', logo: htmlLogo },
-      { name: 'CSS', logo: cssLogo },
-      { name: 'JavaScript', logo: javascriptLogo },
-      { name: 'React JS', logo: reactjsLogo },
-      { name: 'Tailwind CSS', logo: tailwindcssLogo },
+      { name: "HTML", logo: htmlLogo },
+      { name: "CSS", logo: cssLogo },
+      { name: "JavaScript", logo: javascriptLogo },
+      { name: "React JS", logo: reactjsLogo },
+      { name: "Tailwind CSS", logo: tailwindcssLogo },
     ],
   },
   {
-    title: 'Backend',
+    title: "Backend",
     skills: [
-      { name: 'Node JS', logo: nodejsLogo },
-      { name: 'Express JS', logo: expressjsLogo },
-      { name: 'MongoDB', logo: mongodbLogo },
-      { name: 'PostgreSQL', logo: postgreLogo },
+      { name: "Node JS", logo: nodejsLogo },
+      { name: "Express JS", logo: expressjsLogo },
+      { name: "MongoDB", logo: mongodbLogo },
+      { name: "PostgreSQL", logo: postgreLogo },
     ],
   },
   {
-    title: 'Languages',
+    title: "Languages",
     skills: [
-      { name: 'C', logo: cLogo },
-      { name: 'Java', logo: javaLogo },
-      { name: 'Python', logo: pythonLogo },
-      { name: 'JavaScript', logo: javascriptLogo },
+      { name: "C", logo: cLogo },
+      { name: "Java", logo: javaLogo },
+      { name: "Python", logo: pythonLogo },
+      { name: "JavaScript", logo: javascriptLogo },
     ],
   },
   {
-    title: 'Tools',
+    title: "Tools",
     skills: [
-      { name: 'Git', logo: gitLogo },
-      { name: 'GitHub', logo: githubLogo },
-      { name: 'VS Code', logo: vscodeLogo },
-      { name: 'Postman', logo: postmanLogo },
-      { name: 'Compass', logo: mcLogo },
-      { name: 'Vercel', logo: vercelLogo },
-      { name: 'Render', logo: netlifyLogo },
+      { name: "Git", logo: gitLogo },
+      { name: "GitHub", logo: githubLogo },
+      { name: "VS Code", logo: vscodeLogo },
+      { name: "Postman", logo: postmanLogo },
+      { name: "Compass", logo: mcLogo },
+      { name: "Vercel", logo: vercelLogo },
+      { name: "Render", logo: netlifyLogo },
     ],
   },
 ];
 
-  export const experiences = [
-    {
-      id: 0,
-      img: webverseLogo,
-      role: "Remote Mentoring Internship",
-      company: "IBM",
-      date: "April 2025 - June 2025",
-      desc: "Built a Python-based facial emotion detection system using computer vision and machine learning. Implemented face detection, emotion classification, and real-time prediction using camera input, gaining hands-on experience in OpenCV, and image processing.",
-      skills: [
-        "Python",
-        "PyTorch",
-        "Flask",
-        "OpenCV"
-      ],
-    },
-  ];
-  
-  export const education = [
-    {
-      id: 0,
-      img: starexLogo,
-      school: "Starex University, Gurugram",
-      date: "Sept 2022 - present",
-      grade: "",
-      desc: "I hold a B.Tech in Computer Science Engineering from Strarex University, Gurugram, with a strong focus on full-stack web development. I have hands-on experience with core CS concepts, modern web technologies, and building end-to-end applications through projects and workshops.",
-      degree: "Bachelor of Technology in computer science and engineering - B.Tech CSE",
-    },
-    {
-      id: 1,
-      img: hbseLogo,
-      school: "DronaCharya Sr. Sec. School, Gurugram",
-      date: "Apr 2017 - March 2018",
-      grade: "74.2%",
-      desc: "I completed my class 12 education from DronaCharya Sr. Sec. School, Haily Mandi, under the HBSE board, where I studied Physics, Chemistry, and Mathematics (PCM).",
-      degree: "HBSE(XII) - PCM",
-    },
-    {
-      id: 2,
-      img: hbseLogo,
-      school: "Saraswati High School, Gurugram",
-      date: "Apr 2015 - March 2016",
-      grade: "79.8%",
-      desc: "I completed my class 10 education from Saraswati High School, Gurugram, under the HBSE board, where I studied Science and Maths.",
-      degree: "HBSE(X)",
-    },
-  ];
-  
-  export const projects = [
-    {
-      id: 0,
-      title: "Student Task Manager",
-      description:
-        "Student Task Manager is a web-based application that helps students organize academic and personal tasks. It supports task creation and categorization (Urgent, Pending, Completed), real-time UI updates, secure JWT authentication with bcrypt, a clean React-based UI using Tailwind CSS, DaisyUI, and Lucide icons, and a scalable Node.js–MongoDB backend for future institutional use.",
-      image: taskManagerIMG,
-      tags: ["HTML", "CSS", "JavaScript", "React JS", "API","Express.js","JWT","Hashing"],
-      github: "https://github.com/AnkitYadav981/Student-Task-Manager",
-      webapp: "https://test-marj.onrender.com/",
-    },
-    {
-      id: 1,
-      title: "Real time Chat App",
-      description:
-        "Developed a scalable and secure real-time chat application with low-latency messaging using WebSockets. Implemented one-to-one and group chats, message status (delivered/read), user authentication, and persistent chat history, with a clean UI/UX optimized for performance across devices.",
-      image: chatApp,
-      tags: ["HTML", "CSS", "JavaScript", "React JS", "API","Socket.io","Express.js","JWT","Hashing"],
-      github: "https://github.com/AnkitYadav981/ChatApp",
-      webapp: "https://chatapp-d55s.onrender.com",
-    },
-    // {
-    //   id: 2,
-    //   title: "GitHub Profile Detective",
-    //   description:
-    //     "A powerful and user-friendly React.js application designed to uncover and showcase detailed GitHub profile information. Simply enter a GitHub username, and the app fetches comprehensive data, including profile stats, repositories, followers, and contributions. The intuitive interface ensures a seamless experience, making it a must-visit tool for developers and recruiters.",
-    //   image: csprepLogo,
-    //   tags: ["HTML", "CSS", "JavaScript", "React JS", "API"],
-    //   github: "https://github.com/codingmastr/GitHub-Profile-Search-App-Using-React-JS",
-    //   webapp: "https://githubprofiledetective.netlify.app/",
-    // },
-    
-  ];  
+export const experiences = [
+  {
+    id: 0,
+    img: webverseLogo,
+    role: "Remote Mentoring Internship",
+    company: "IBM",
+    date: "April 2025 - June 2025",
+    desc: "Built a Python-based facial emotion detection system using computer vision and machine learning. Implemented face detection, emotion classification, and real-time prediction using camera input, gaining hands-on experience in OpenCV, and image processing.",
+    skills: ["Python", "PyTorch", "Flask", "OpenCV"],
+  },
+  {
+    id: 1,
+    img: uzenceLogo,
+    role: "FrontEnd Developer",
+    company: "Uzence Design Studio",
+    date: "Feb 2026 - June 2026",
+    desc: "Worked as a Frontend Developer Intern, contributing to the development of responsive and user-friendly web applications. Collaborated with the design and development teams to build reusable components and improve user experience.",
+    skills: ["TypeScript", "React.js", "TailwindCSS", "Storybook"],
+  },
+];
+
+export const education = [
+  {
+    id: 0,
+    img: starexLogo,
+    school: "Starex University, Gurugram",
+    date: "Sept 2022 - present",
+    grade: "",
+    desc: "I hold a B.Tech in Computer Science Engineering from Strarex University, Gurugram, with a strong focus on full-stack web development. I have hands-on experience with core CS concepts, modern web technologies, and building end-to-end applications through projects and workshops.",
+    degree:
+      "Bachelor of Technology in computer science and engineering - B.Tech CSE",
+  },
+  {
+    id: 1,
+    img: hbseLogo,
+    school: "DronaCharya Sr. Sec. School, Gurugram",
+    date: "Apr 2017 - March 2018",
+    grade: "74.2%",
+    desc: "I completed my class 12 education from DronaCharya Sr. Sec. School, Haily Mandi, under the HBSE board, where I studied Physics, Chemistry, and Mathematics (PCM).",
+    degree: "HBSE(XII) - PCM",
+  },
+  {
+    id: 2,
+    img: hbseLogo,
+    school: "Saraswati High School, Gurugram",
+    date: "Apr 2015 - March 2016",
+    grade: "79.8%",
+    desc: "I completed my class 10 education from Saraswati High School, Gurugram, under the HBSE board, where I studied Science and Maths.",
+    degree: "HBSE(X)",
+  },
+];
+
+export const projects = [
+  {
+    id: 0,
+    title: "Student Task Manager",
+    description:
+      "Student Task Manager is a web-based application that helps students organize academic and personal tasks. It supports task creation and categorization (Urgent, Pending, Completed), real-time UI updates, secure JWT authentication with bcrypt, a clean React-based UI using Tailwind CSS, DaisyUI, and Lucide icons, and a scalable Node.js–MongoDB backend for future institutional use.",
+    image: taskManagerIMG,
+    tags: [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "React JS",
+      "API",
+      "Express.js",
+      "JWT",
+      "Hashing",
+    ],
+    github: "https://github.com/AnkitYadav981/Student-Task-Manager",
+    webapp: "https://test-marj.onrender.com/",
+  },
+  {
+    id: 1,
+    title: "Real time Chat App",
+    description:
+      "Developed a scalable and secure real-time chat application with low-latency messaging using WebSockets. Implemented one-to-one and group chats, message status (delivered/read), user authentication, and persistent chat history, with a clean UI/UX optimized for performance across devices.",
+    image: chatApp,
+    tags: [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "React JS",
+      "API",
+      "Socket.io",
+      "Express.js",
+      "JWT",
+      "Hashing",
+    ],
+    github: "https://github.com/AnkitYadav981/ChatApp",
+    webapp: "https://chatapp-d55s.onrender.com",
+  },
+  {
+    id: 2,
+    title: "Employee Management System!",
+    description:
+      "Developed a full-stack Employee Management System using the MERN stack to streamline employee, department, leave, and salary management with secure role-based authentication.",
+    image: ems,
+    tags: [
+      "React JS",
+      "Node.js",
+      "Express.js",
+      "MongoDB",
+      "JavaScript",
+      "Tailwind CSS",
+      "Zustand",
+      "JWT Authentication",
+      "REST API",
+      "MERN Stack",
+    ],
+    github: "https://github.com/AnkitYadav981/Employee-Management-System",
+    webapp: "https://employee-management-system-c4em.onrender.com/",
+  },
+];
