@@ -32,7 +32,7 @@ import hbseLogo from "./assets/education_logo/HBSE logo.webp";
 import taskManagerIMG from "./assets/work_logo/Student-task-manager.png";
 import chatApp from "./assets/work_logo/chatty2.png";
 import ems from "./assets/work_logo/EMS.png";
-import trs from "./assets/work_logo/trader-risk-dashboard.png";
+import trs from "./assets/work_logo/TRS.png";
 
 export const SkillsInfo = [
   {
@@ -94,6 +94,15 @@ export const experiences = [
     role: "FrontEnd Developer",
     company: "Uzence Design Studio",
     date: "Feb 2026 - June 2026",
+    desc: "Worked as a Frontend Developer Intern, contributing to the development of responsive and user-friendly web applications. Collaborated with the design and development teams to build reusable components and improve user experience.",
+    skills: ["TypeScript", "React.js", "TailwindCSS", "Storybook"],
+  },
+  {
+    id: 2,
+    img: uzenceLogo,
+    role: "FrontEnd Developer",
+    company: "Uzence Design Studio",
+    date: "Aug 2026 - Present",
     desc: "Worked as a Frontend Developer Intern, contributing to the development of responsive and user-friendly web applications. Collaborated with the design and development teams to build reusable components and improve user experience.",
     skills: ["TypeScript", "React.js", "TailwindCSS", "Storybook"],
   },
