@@ -31,7 +31,8 @@ import hbseLogo from "./assets/education_logo/HBSE logo.webp";
 // Project Section Logo's
 import taskManagerIMG from "./assets/work_logo/Student-task-manager.png";
 import chatApp from "./assets/work_logo/chatty2.png";
-import ems from "./assets/work_logo/EMS.png"
+import ems from "./assets/work_logo/EMS.png";
+import trs from "./assets/work_logo/trader-risk-dashboard.png";
 
 export const SkillsInfo = [
   {
@@ -189,5 +190,21 @@ export const projects = [
     ],
     github: "https://github.com/AnkitYadav981/Employee-Management-System",
     webapp: "https://employee-management-system-c4em.onrender.com/",
+  },
+  {
+    id: 3,
+    title: "Trader Risk Dashboard",
+    description:
+      "A responsive trading risk dashboard that helps traders monitor account performance, P&L, drawdown, daily loss limits, win rate, and overall risk status. It includes a visual risk meter and asset-wise performance analysis to identify profitable and underperforming assets.",
+    image: trs,
+    tags: [
+      "React JS",
+      "JavaScript",
+      "Tailwind CSS",
+      "HTML",
+      "CSS",
+    ],
+    github: "https://github.com/AnkitYadav981/TradeSpace-Assignment",
+    webapp: "https://trade-space-assignment.vercel.app/",
   },
 ];
